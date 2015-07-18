@@ -1,0 +1,53 @@
+.logo-container {
+	margin-bottom: 10px;
+	overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.header-links {
+	display: inline;
+	float: right;
+	padding-top: 15px;
+	
+}
+
+.header-links a {
+	color: #555555;
+	text-decoration: none;
+	vertical-align: middle;
+}
+#footer {
+	font-family: arial, verdana, sans-serif;
+	font-size: .5em;
+}
+
+
+li {
+	display: inline;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+.nav-bar {
+	display: table;
+	width: auto;
+	margin: 0 auto;
+}
+
+
+.nav-bar ul li a:hover {
+	background: #555555;
+	height: auto;
+}
+
+
+form img {
+	width: 200px;
+	height: 200px;
+}
+
+.jumbotron {
+	font-size: 2em;
+}

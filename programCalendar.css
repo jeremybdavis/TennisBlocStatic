@@ -1,0 +1,66 @@
+.sunday {
+	background-color: green;
+}
+
+.day-number {
+	font-size: .6em;
+	text-align:right;
+	color: black;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+td {
+	font-size: 1.5em;
+	text-align: right;
+	font-family: raleway;
+	height: 5em;
+	background-color: #FFFFF;
+}
+
+.dayNames {
+	border-bottom: 2px solid black;
+	font-size: 2em;
+	font-family: arial;
+	background-color: black;
+	color: #DDDDDD;
+	height: auto;
+	text-align: center;
+}
+
+.month {
+	font-size: 3em;
+	border: 3px solid 558F1D;
+	background-color: #558F1D;
+	color: white;
+	font-family: raleway;
+	height: auto;
+	text-align: center;
+}
+
+.calendar {
+	border: 3px solid black;
+}
+
+.available {
+	background-color: #FFFFFF;
+}
+
+.available:hover {
+	background-color: #99FF33;
+}
+
+.selected {
+	background: #99FF33;
+	font-weight: bold;
+}
+
+.notInRange, .unavailable {
+	background-color: #555555;
+}
+
+.counter-container {
+	text-align: right;
+}
